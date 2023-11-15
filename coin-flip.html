@@ -82,7 +82,7 @@
         var historyTable = document.getElementById("history-table");
 
         // Customize the probabilities here (70% Heads, 30% Tails)
-        var outcomes = Math.random() < 0.7 ? ["Heads"] : ["Tails"];
+        var outcomes = Math.random() < 0.5 ? ["Heads"] : ["Tails"];
 
         var flipResult = outcomes[0];
         resultElement.innerHTML = "Result: " + flipResult;
